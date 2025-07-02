@@ -16,7 +16,10 @@ Aplikasi web modern untuk pendaftaran mahasiswa baru, dilengkapi fitur upload fo
 
 Proyek ini merupakan implementasi sistem cetak laporan data siswa berbasis web dengan output PDF untuk SMK Negeri 2 Langsa. Sistem ini memungkinkan pengguna untuk menampilkan, menambah, dan mencetak data siswa kelas IX jurusan Rekayasa Perangkat Lunak dalam format PDF.
 
-![Screenshot Laporan PDF](static/images/docs/pdf-report.png)
+![image](https://github.com/user-attachments/assets/1c150a0b-c1ff-440e-b3f8-c5d819a32265)
+
+![image](https://github.com/user-attachments/assets/6c8d8c71-99cb-4c93-b1aa-c7bd97052c25)
+
 
 ## 📋 Fitur
 
@@ -170,34 +173,28 @@ $pdf->Output();
 
 ## 📄 Struktur File
 
-```
-/sistem-laporan-siswa
-├── index.php                 # Halaman utama menampilkan daftar siswa
-├── tambah.php                # Form menambah siswa baru
-├── edit.php                  # Form mengedit siswa
-├── hapus.php                 # Proses hapus siswa
-├── koneksi.php               # Koneksi database
-├── generate_pdf.php          # Proses pembuatan PDF
-├── /database
-│   └── tutorial.sql          # File SQL untuk import database
-├── /fpdf                     # Library FPDF
-└── /assets
-    ├── /css                  # File CSS
-    ├── /js                   # File JavaScript
-    └── /images               # Gambar dan aset visual
-```
+/
+├── app.py                  # File utama aplikasi Flask
+├── /app                    # Paket aplikasi
+│   ├── __init__.py         # Inisialisasi paket Flask
+│   ├── routes.py           # Definisi rute aplikasi
+│   └── /utils
+│       └── pdf_generator.py # Utilitas pembuatan PDF (opsional)
+├── /config
+│   └── database.py         # Konfigurasi koneksi database
+├── /static
+│   ├── /css
+│   │   └── style.css       # File styling utama
+│   ├── /images             # Aset gambar (logo, dll)
+│   └── /uploads            # Folder untuk menyimpan foto yang diunggah
+├── /templates
+│   ├── index.html          # Halaman utama (form pendaftaran)
+│   ├── success.html        # Halaman notifikasi sukses
+│   ├── daftar_siswa.html   # Halaman daftar siswa
+│   └── /admin
+│       └── pendaftar.html  # Halaman admin
+└── README.md
 
-## 👨‍💻 Kontributor
-
-- Nama: [Nama Anda]
-- NIM: [NIM Anda]
-- Kelas: [Kelas Anda]
-- Mata Kuliah: Pemrograman Web
-- Dosen: [Nama Dosen]
-
-## 📝 Lisensi
-
-© 2023 SMKN 2 Langsa. All rights reserved.
 
 
 
