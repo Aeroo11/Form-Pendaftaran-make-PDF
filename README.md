@@ -172,29 +172,7 @@ $pdf->Output();
    - Untuk mengedit: Klik tombol "Edit" pada baris data yang ingin diubah
    - Untuk menghapus: Klik tombol "Hapus" pada baris data yang ingin dihapus
 
-## 📄 Struktur File
 
-/
-├── app.py                  # File utama aplikasi Flask
-├── /app                    # Paket aplikasi
-│   ├── __init__.py         # Inisialisasi paket Flask
-│   ├── routes.py           # Definisi rute aplikasi
-│   └── /utils
-│       └── pdf_generator.py # Utilitas pembuatan PDF (opsional)
-├── /config
-│   └── database.py         # Konfigurasi koneksi database
-├── /static
-│   ├── /css
-│   │   └── style.css       # File styling utama
-│   ├── /images             # Aset gambar (logo, dll)
-│   └── /uploads            # Folder untuk menyimpan foto yang diunggah
-├── /templates
-│   ├── index.html          # Halaman utama (form pendaftaran)
-│   ├── success.html        # Halaman notifikasi sukses
-│   ├── daftar_siswa.html   # Halaman daftar siswa
-│   └── /admin
-│       └── pendaftar.html  # Halaman admin
-└── README.md
 
 
 
