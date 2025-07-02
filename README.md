@@ -18,7 +18,8 @@ Proyek ini merupakan implementasi sistem cetak laporan data siswa berbasis web d
 
 ![image](https://github.com/user-attachments/assets/1c150a0b-c1ff-440e-b3f8-c5d819a32265)
 
-![image](https://github.com/user-attachments/assets/6c8d8c71-99cb-4c93-b1aa-c7bd97052c25)
+![image](https://github.com/user-attachments/assets/96845c85-87d8-43e4-845c-580ab63a0c9d)
+
 
 
 ## 📋 Fitur
